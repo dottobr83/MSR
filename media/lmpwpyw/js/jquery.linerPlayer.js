@@ -170,7 +170,7 @@
 				if (screen.width <= 480){
 					$('body').css('margin-bottom',$('body').css('margin-bottom').split('px')[0].split('em')[0]*1+88);
 				}else{
-					$('body').css('margin-bottom',$('body').css('margin-bottom').split('px')[0].split('em')[0]*1+58);
+					$('body').css('margin-bottom',$('body').css('margin-bottom').split('px')[0].split('em')[0]*1+0);
 				}
 				
 				if(event.jPlayer.status.noVolume){
